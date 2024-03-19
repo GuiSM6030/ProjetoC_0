@@ -12,7 +12,9 @@ int main(){
     printf("0. Sair\n");
 
     printf("\n Escolha uma opção acima. \n");
+    
     int i = scanf("%d", &opcao);
+    
     printf("Opção escolhida %d\n", opcao);
     
   }
