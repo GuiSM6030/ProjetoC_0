@@ -1,5 +1,4 @@
 #include "tarefas.h"
-#include "tarefas.c"
 #include <stdio.h>
 
 
@@ -22,6 +21,19 @@ int main(){
     int i = scanf("%d", &opcao);
   
     printf("Opção escolhida %d\n", opcao);
+
+    if(opcao == 1){
+      int erro = criar(tarefas, &position);
+    } else if(opcao == 2){
+      int erro = deletar(tarefas, &position);
+    } else if(opcao == 3){
+      int erro = listar(tarefas, position);
+    } else if(opcao == 0){
+      printf("Sair \n");
+      
+    } else {
+      printf("Opção inválida\n");
+    }
     
   }
     while (opcao != 0);  

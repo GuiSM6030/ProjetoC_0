@@ -5,9 +5,7 @@ typedef struct tarefa{
   char descricao[300];
   char categoria[100];
 
-}
-
-  Tarefa;
+} Tarefa;
 
 int criar(Tarefa tarefas[], int *position);
 int deletar(Tarefa tarefas[], int *position);
