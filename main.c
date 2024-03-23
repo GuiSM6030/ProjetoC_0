@@ -1,12 +1,6 @@
-#include "tarefas.h"
 #include <stdio.h>
 
-
 int main(){
-
-  int position = 0;
-  Tarefa tarefas[TOTAL];
-  
   int opcao;
 
   do{
@@ -34,7 +28,7 @@ int main(){
     } else {
       printf("Opção inválida\n");
     }
-    
+
   }
     while (opcao != 0);  
     
