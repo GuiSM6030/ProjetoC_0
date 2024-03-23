@@ -1,6 +1,10 @@
 #include <stdio.h>
+#include "tarefas.h"
 
 int main(){
+  int position = 0;
+  Tarefa tarefas[TOTAL];
+
   int opcao;
 
   do{
