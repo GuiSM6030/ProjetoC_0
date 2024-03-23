@@ -12,3 +12,5 @@ int deletar(Tarefa tarefas[], int *position);
 int listar(Tarefa tarefas[], int position);
 int salvar(Tarefa tarefas[], int total, int position);
 int carregar(Tarefa tarefas[], int total, int position);
+
+void clearBuffer();
